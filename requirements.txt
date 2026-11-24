@@ -1,0 +1,13 @@
+# Snapsort — Python 3.10 or newer
+fastapi>=0.110
+uvicorn[standard]>=0.27
+onnxruntime>=1.17          # CPU inference, no GPU needed
+tokenizers>=0.15
+pillow>=10.2
+pillow-heif>=0.16          # iPhone HEIC photos
+opencv-python-headless>=4.9
+numpy>=1.24
+rawpy>=0.21                # camera RAW files (CR2, NEF, ARW, DNG...)
+
+# Optional: native desktop window (falls back to your browser if absent)
+# pywebview>=5.0
